@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: Fetoemc
+Specification-Vendor: zhufeng
+Specification-Version: 1
+Implementation-Title: forge
+Implementation-Version: 1.0.2-fetoemc-1.20.1
+Implementation-Vendor: zhufeng
+MixinConfigs: fetoemc.mixins.json
+

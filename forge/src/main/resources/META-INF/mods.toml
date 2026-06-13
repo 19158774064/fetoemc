@@ -1,0 +1,48 @@
+# Forge Mods.toml 配置文件
+modLoader = "javafml"
+loaderVersion = "[47,)"
+license = "MIT"
+
+[[mods]]
+modId = "fetoemc"
+version = "${mod_version}"
+displayName = "Fetoemc"
+authors = "zhufeng"
+description = '''一个可以将FE转换为emc的模组，测试阶段，可能会有严重的兼容性问题。（模组代码由ai生成）'''
+logoFile = "icon.png"
+
+[[dependencies.fetoemc]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,48)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.fetoemc]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,1.21)"
+ordering = "NONE"
+side = "BOTH"
+
+# ===== 模组依赖 =====
+[[dependencies.fetoemc]]
+modId = "create"
+mandatory = true
+versionRange = "*"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.fetoemc]]
+modId = "createaddition"
+mandatory = true
+versionRange = "*"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.fetoemc]]
+modId = "projecte"
+mandatory = true
+versionRange = "[1.0.1,)"
+ordering = "NONE"
+side = "BOTH"

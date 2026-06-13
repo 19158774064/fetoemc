@@ -1,0 +1,7 @@
+#每次转换消耗的 FE 量（默认 50000）
+#Range: > 1
+fe_per_conversion = 50000
+#每次转换产出的 EMC 量（默认 5000）
+#Range: > 1
+emc_per_conversion = 5000
+
