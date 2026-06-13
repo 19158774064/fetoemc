@@ -1,2 +1,3 @@
-# fetoemc
-一个可以将机械动力：创想附加的FE电能转换为等价交换emc的minecraft模组
+# Template Mod
+A Minecraft 1.20.1 mod template using the Architectury framework.
+This is a clean template for creating new mods.
