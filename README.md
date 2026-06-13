@@ -1,3 +1,18 @@
-# Template Mod
-A Minecraft 1.20.1 mod template using the Architectury framework.
-This is a clean template for creating new mods.
+一个可以将机械动力：创想附加的FE电能转换为等价交换的emc的模组。（ai制作）
+
+添加了FEMC转换器方块，方块自身可以存储10kfe的电，输入的FE每10tick进行一次转换（未满足设置数值不转换）所有转换方块同tick计算。
+
+emc值会给予放置方块的玩家，兼容等价交换团队模组。
+
+未添加合成表！
+
+转换数值可通过config文件夹中的fetoemc-common.toml进行编辑。（默认每50kfe转换5000emc）
+
+模组实现理论兼容任意版本的机械动力及创想附加模组
+
+模组代码使用DeepSeek v4制作，图标使用豆包，方块作者手绘awa。
+
+随缘更新（主要也没什么可加的了），测试阶段，不要在重要存档使用。
+
+感谢使用！
+下载地址：https://modrinth.com/mod/fetoemc
