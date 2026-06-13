@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "fetoemc:block/femc_converter"
+    }
+  }
+}
